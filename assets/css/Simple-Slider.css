@@ -93,7 +93,7 @@
 
 @media (max-width: 767px) {
   .minikyazi {
-    max-width: 92%;
+    max-width: 100%;
     text-align: center;
   }
 }
