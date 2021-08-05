@@ -1,0 +1,101 @@
+.simple-slider .swiper-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 9999;
+  color: rgba(255,255,255,0.57);
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+
+.swiper-slide {
+}
+
+.iletisim a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.iletisim .icon {
+  font-size: 1.6rem;
+  color: #232323;
+}
+
+.socialsicon .icon {
+  margin-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  .iletisimparagraph {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .iletisimparagraph {
+    font-size: 1rem;
+  }
+}
+
+.iletisimlink {
+}
+
+@media (max-width: 768px) {
+  .navicon {
+    margin-right: 21px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navicon {
+    margin: 0px;
+  }
+}
+
+.iletisimbaslik {
+  margin: 1rem;
+  color: #eac61c;
+  font-family: 'Bebas Neue', serif;
+  text-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+  letter-spacing: 4px;
+}
+
+.iletisimparagraph {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #262626;
+}
+
+.iletisim p {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .minikyazi {
+    max-width: 60%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .minikyazi {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
