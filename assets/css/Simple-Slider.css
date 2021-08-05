@@ -28,20 +28,15 @@
 
 .iletisim a {
   text-decoration: none;
-  color: #ffffff;
+  color: #232323;
 }
 
 .iletisim .icon {
   font-size: 1.6rem;
-  color: #eac61c;
-}
-
-.iletisim p {
-  margin-bottom: 1.5rem;
+  color: #232323;
 }
 
 .socialsicon .icon {
-  color: rgb(176,176,176);
   margin-right: 1rem;
 }
 
@@ -69,6 +64,37 @@
 @media (min-width: 768px) {
   .navicon {
     margin: 0px;
+  }
+}
+
+.iletisimbaslik {
+  margin: 1rem;
+  color: #eac61c;
+  font-family: 'Bebas Neue', serif;
+  text-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+.iletisimparagraph {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #262626;
+}
+
+.iletisim p {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .minikyazi {
+    max-width: 60%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .minikyazi {
+    max-width: 92%;
+    text-align: left;
   }
 }
 
