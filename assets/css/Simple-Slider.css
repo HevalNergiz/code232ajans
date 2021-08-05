@@ -60,3 +60,13 @@
 .iletisimlink {
 }
 
+@media (max-width: 768px) {
+  .navicon {
+    margin-right: 10px;
+  }
+}
+
+.navicon {
+  margin: 0px;
+}
+
