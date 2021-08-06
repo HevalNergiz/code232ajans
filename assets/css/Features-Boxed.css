@@ -100,3 +100,7 @@
   margin-top: 10px;
 }
 
+#navcol-1 {
+  z-index: 99999999;
+}
+
