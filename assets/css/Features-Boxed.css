@@ -104,3 +104,22 @@
   z-index: 99999999;
 }
 
+.referans {
+  filter: saturate(0%);
+  transition-duration: 0.7s;
+  margin-top: 1.5rem;
+}
+
+.referans:hover {
+  filter: saturate(100%);
+  transition-duration: 0.7s;
+}
+
+.referans.siyah {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.referans.beyaz {
+  background-color: rgba(255,255,255,0.4);
+}
+

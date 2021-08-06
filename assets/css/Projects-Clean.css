@@ -39,7 +39,7 @@
 .projects-clean .item {
   text-align: center;
   background-color: rgba(255,255,255,0);
-  margin: 5px;
+  margin: 0px;
   filter: saturate(0%);
   transition-duration: 1s;
 }
