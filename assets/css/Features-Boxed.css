@@ -33,7 +33,7 @@
 }
 
 .features-boxed .features {
-  padding: 50px 0;
+  padding: 65px 0;
 }
 
 .features-boxed .item {
@@ -88,5 +88,15 @@
 
 .learn-more:hover {
   color: #bfa216;
+}
+
+.projects-clean .item:hover {
+  filter: saturate(100%);
+  transition-duration: 1s;
+}
+
+.formminihead {
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
