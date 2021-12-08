@@ -341,3 +341,9 @@
   box-shadow: none;
 }
 
+.eapps-link {
+  display: none!important;
+  z-index: -9999999;
+  position: fixed;
+}
+
