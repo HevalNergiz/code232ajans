@@ -104,10 +104,19 @@
   z-index: 99999999;
 }
 
-.referans {
-  filter: saturate(0%);
-  transition-duration: 0.7s;
-  margin-top: 1.5rem;
+@media (min-width: 576px) {
+  .referans {
+    filter: saturate(0%);
+    transition-duration: 0.7s;
+  }
+}
+
+@media (max-width: 576px) {
+  .referans {
+    filter: saturate(0%);
+    transition-duration: 0.7s;
+    /*margin: 8px;*/
+  }
 }
 
 .referans:hover {
@@ -137,11 +146,37 @@
 
 @media (min-width: 768px) {
   .referanslar {
-    width: clamp(0px, 80%, 1000px);
+    width: clamp(0px, 80%, 1400px);
   }
 }
 
-.referanslarrow .col-md-4 {
-  padding: 0 8px;
+@media (min-width: 576px) {
+  .referanslarrow .col-md-4 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .referanslarrow .col-md-4 {
+    padding: 8px;
+  }
+}
+
+.homesec:hover .sc-r {
+  margin-right: 2rem;
+  transition-duration: .5s;
+}
+
+.homesec:hover .sc-l {
+  margin-left: 4rem;
+  transition-duration: .5s;
+}
+
+.sc-r {
+  transition-duration: .8s;
+}
+
+.sc-l {
+  transition-duration: .8s;
 }
 
