@@ -5,7 +5,7 @@
   position: relative;
   z-index: 1;
   box-shadow: 0px 20px 20px rgba(33,37,41,0.1);
-  background: url("../../assets/img/bg.png") center / cover, #e4e5e7;
+  background: url("../../assets/img/bg.webp") center / cover, #e4e5e7;
 }
 
 .blinking {
