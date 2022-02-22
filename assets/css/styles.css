@@ -347,3 +347,15 @@
   position: fixed;
 }
 
+@media (min-width: 768px) {
+  .referanslar {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .referanslar {
+    margin-top: 44px;
+  }
+}
+
