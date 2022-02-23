@@ -144,14 +144,14 @@
   .referansmetni {
     font-size: 1.3rem;
     /*max-width: 64%;*/
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 40px auto;
   }
 }
 
 @media (max-width: 500px) {
   .referansmetni {
     font-size: .75rem;
-    max-width: 80%;
+    max-width: 95%;
     margin: 1.5rem auto .7rem auto;
   }
 }
